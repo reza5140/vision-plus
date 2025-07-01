@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ویژن‌پلاس | نصب دوربین مداربسته</title>
+  <style>
+    body { font-family: sans-serif; margin: 0; direction: rtl; background: #f7f7f7; }
+    header { background-color: #004e64; color: white; padding: 40px 20px; text-align: center; }
+    header h1 { margin-bottom: 10px; }
+    section { padding: 30px 20px; max-width: 1000px; margin: auto; }
+    .services { display: flex; flex-wrap: wrap; gap: 20px; justify-content: center; }
+    .service { background: white; padding: 20px; border-radius: 12px; box-shadow: 0 0 10px rgba(0,0,0,0.1); flex: 1 1 280px; }
+    .contact { background: #e0fbfc; padding: 30px 20px; border-radius: 12px; }
+    input, textarea, button {
+      width: 100%; padding: 10px; margin-bottom: 10px; border-radius: 8px; border: 1px solid #ccc;
+      font-family: inherit;
+    }
+    button { background: #00b4d8; color: white; border: none; font-weight: bold; cursor: pointer; }
+    footer { text-align: center; padding: 20px; background: #001219; color: white; }
+    @media (max-width: 600px) {
+      header, section { padding: 20px 10px; }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>ویژن‌پلاس</h1>
+    <p>نصب و فروش دوربین مداربسته با بهترین قیمت و خدمات در محل شما</p>
+  </header>
+
+  <section>
+    <h2>خدمات ما</h2>
+    <div class="services">
+      <div class="service">
+        <h3>نصب حرفه‌ای</h3>
+        <p>نصب اصولی انواع دوربین برای منزل، ویلا و مغازه‌ها با بهترین کابل‌کشی و تنظیم زاویه.</p>
+      </div>
+      <div class="service">
+        <h3>مشاوره رایگان</h3>
+        <p>بررسی محل، ارائه پیشنهاد مناسب و انتخاب بهترین پکیج برای نیاز شما.</p>
+      </div>
+      <div class="service">
+        <h3>پشتیبانی سریع</h3>
+        <p>در صورت خرابی، جابجایی یا نیاز به ارتقاء سیستم، پشتیبانی سریع در دسترس شماست.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact">
+    <h2>تماس با ما</h2>
+    <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+      <input type="text" name="name" placeholder="نام شما" required>
+      <input type="email" name="email" placeholder="ایمیل یا شماره واتساپ" required>
+      <textarea name="message" rows="4" placeholder="پیام شما..."></textarea>
+      <button type="submit">ارسال پیام</button>
+    </form>
+  </section>
+
+  <footer>
+    طراحی‌شده توسط ویژن‌پلاس | تماس: 0912XXX1234
+  </footer>
+
+</body>
+</html>
